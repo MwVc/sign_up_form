@@ -84,17 +84,6 @@ body {
   flex-direction: column;
 }
 
-.flex-two {
-  background-color: white;
-  box-shadow: 0 10px 20px -3px rgba(220, 221, 222, 255);
-  z-index: 1;
-}
-
-.flex-three {
-  background-color: #f9fafb;
-  z-index: 0;
-}
-
 .text-container {
   width: 90%;
   min-height: 50%;
@@ -103,4 +92,30 @@ body {
 .text-container > p {
   font-weight: bolder;
   font-size: 1.4rem;
+}
+
+.flex-two {
+  background-color: white;
+  box-shadow: 0 10px 20px -3px rgba(220, 221, 222, 255);
+  z-index: 1;
+}
+
+.form-container {
+  border: 1px red solid;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-container > h3 {
+  font-size: 1.4rem;
+  color: #1f2937;
+}
+
+.input {
+  border: 1px red solid;
+}
+
+.flex-three {
+  background-color: #f9fafb;
+  z-index: 0;
 }
