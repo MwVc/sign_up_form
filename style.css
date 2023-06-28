@@ -65,45 +65,42 @@ body {
 
 .flex-container {
   background-color: #f9fafb;
-  width: calc(68% - 2px);
-  height: calc(100vh - 2px);
+  width: 68%;
+  height: 100vh;
   float: right;
-  flex-direction: column;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  height: 100%;
 }
 
 .flex-one {
-  height: 30%;
-  max-height: 30%;
-  min-height: 300px;
   background-color: #f9fafb;
-  position: relative;
-  font-weight: bold;
-}
-
-.text-container {
-  position: absolute;
-  width: 80%;
-  bottom: 0;
-  border: 1px red solid;
-}
-
-.text-container > p {
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
 }
 
 .flex-two {
-  height: 40%;
-  width: 100%;
-  background-color: #ffffff;
+  background-color: white;
   box-shadow: 0 10px 20px -3px rgba(220, 221, 222, 255);
-  position: relative;
+  z-index: 1;
 }
 
 .flex-three {
-  height: 30%;
   background-color: #f9fafb;
+  z-index: 0;
+}
+
+.text-container {
+  width: 90%;
+  min-height: 50%;
+}
+
+.text-container > p {
+  font-weight: bolder;
+  font-size: 1.4rem;
 }
