@@ -102,7 +102,7 @@ body {
 
 .form-container {
   width: 90%;
-  height: 100%;
+  max-height: 100vh;
   /* max-width: 700px; */
   margin: 0 auto;
 }
@@ -131,10 +131,6 @@ body {
   width: 100%;
   border-radius: 5px;
   border: 1px solid #e5e7eb;
-  height: 40px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-left: 5px;
 }
 
 .input-box > input:focus {
@@ -147,10 +143,43 @@ body {
 .error {
   outline: none;
   border-radius: 5px;
-  border: 1px solid rgb(255, 20, 20) !important;
+  border: 1px solid rgb(255, 20, 20);
+}
+
+#error-el {
+  border: 1px red solid;
+  margin: 0;
+  height: 20px;
+  width: 30%;
 }
 
 .flex-three {
   background-color: #f9fafb;
   z-index: 0;
+  display: flex;
+}
+
+.submit-container {
+  width: 90%;
+  margin: 20px auto 0 auto;
+}
+
+.submit-container button {
+  background-color: #596d48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 3.5rem;
+  width: 30%;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.submit-container p {
+  font-weight: bolder;
+}
+
+.submit-container a {
+  text-decoration: none;
+  color: #596d48;
 }
