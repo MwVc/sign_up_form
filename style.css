@@ -127,23 +127,27 @@ body {
 }
 
 .input-box > input {
+  font-size: 1.3rem;
   width: 100%;
   border-radius: 5px;
   border: 1px solid #e5e7eb;
   height: 40px;
   margin-top: 10px;
   margin-bottom: 15px;
+  padding-left: 5px;
 }
 
 .input-box > input:focus {
+  outline: none !important;
   border-radius: 5px;
-  border: 1px solid #4a7de2 !important;
+  border: 1px solid #4a7de2;
+  box-shadow: 0 10px 20px -3px rgba(220, 221, 222, 255);
 }
 
 .error {
+  outline: none;
   border-radius: 5px;
   border: 1px solid rgb(255, 20, 20) !important;
-  background-color: rgb(243, 127, 127, 0.5);
 }
 
 .flex-three {
