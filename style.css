@@ -171,10 +171,15 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
+  box-shadow: 0 10px 20px -3px rgba(220, 221, 222, 255);
   height: 3.5rem;
   width: 30%;
   font-weight: bolder;
   font-size: 1.2rem;
+}
+
+.submit-container button:active {
+  transform: scale(0.98);
 }
 
 .submit-container p {

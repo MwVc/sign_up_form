@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Form</title>
+    <title>Sign_up_form</title>
   </head>
   <body>
     <div class="odin">
@@ -37,7 +37,7 @@
       <div class="flex-two box">
         <div class="form-container">
           <h3>Let's do this!</h3>
-          <form action="submit">
+          <form action="submit" id="form">
             <div class="form-details">
               <div class="input-box">
                 <label for="first_name">FIRST NAME</label>
@@ -82,7 +82,9 @@
       </div>
       <div class="flex-three box">
         <div class="submit-container">
-          <button type="submit">Create Account</button>
+          <button type="submit" method="GET" form="form" id="submit-button">
+            Create Account
+          </button>
           <p>
             Already have account?
             <a href="#">Log in</a>
