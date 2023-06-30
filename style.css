@@ -142,14 +142,13 @@ body {
   box-shadow: 0 10px 20px -3px rgba(220, 221, 222, 255);
 }
 
-.error {
+/* .error {
   outline: none;
   border-radius: 5px;
   border: 1px solid rgb(255, 20, 20);
-}
+} */
 
 #error-el {
-  border: 1px red solid;
   margin: 0;
   height: 20px;
   width: 30%;

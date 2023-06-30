@@ -37,7 +37,7 @@
       <div class="flex-two box">
         <div class="form-container">
           <h3>Let's do this!</h3>
-          <form action="submit" id="form">
+          <form action="#" id="form">
             <div class="form-details">
               <div class="input-box">
                 <label for="first_name">FIRST NAME</label>
@@ -62,19 +62,24 @@
                 <input type="tel" id="phone" name="phone" required />
               </div>
               <div class="input-box">
-                <label for="password">PASSWORD</label>
+                <label for="password-one">PASSWORD</label>
                 <input
                   type="password"
                   name="password"
-                  id="password"
+                  id="password-one"
                   class="error"
                   required
                 />
                 <div id="error-el"></div>
               </div>
               <div class="input-box">
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" class="error" />
+                <label for="password-two">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  class="error"
+                  id="password-two"
+                  required
+                />
               </div>
             </div>
           </form>
@@ -82,7 +87,7 @@
       </div>
       <div class="flex-three box">
         <div class="submit-container">
-          <button type="submit" method="GET" form="form" id="submit-button">
+          <button type="submit" form="form" id="submit-button">
             Create Account
           </button>
           <p>
@@ -92,6 +97,6 @@
         </div>
       </div>
     </div>
-    <script src="./index.js"></script>
   </body>
+  <script src="/repos/sign_up_form/index.js"></script>
 </html>
